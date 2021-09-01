@@ -1,0 +1,3357 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.topmost{
+    background-color: darkblue;
+    color: white;
+    text-overflow: ellipsis; 
+    overflow: hidden; 
+    white-space: nowrap;
+    display: inline-block;
+    width: 100%;
+}
+#language{
+    border-color: white;
+    color: white;
+    background-color: darkblue;
+}
+.topmost1{
+    margin-left: 200px;
+}
+.topmost1:hover{
+    cursor: pointer;
+}
+.topmost2{
+    margin-left: 10px;
+}
+.topmost2:hover{
+    cursor: pointer;
+}
+.tick1{
+    padding-left: 4px;
+    font-weight: bold;
+}
+.topmost3{
+    margin-left: 500px;
+}
+.topmost3:hover{
+    cursor: pointer;
+}
+.topmost4:hover{
+    cursor: pointer;
+}
+.topmost5{
+    cursor: pointer;
+}
+.topmost6{
+    cursor: pointer;
+}
+.topmost7{
+    cursor: pointer;
+}
+.topmiddle{
+    background-color: darkred;
+    height: 150px;
+}
+.img{
+    position: absolute;
+    margin-left: 200px;
+    margin-top:20px;
+}
+.englishname{
+    color: white;
+    font-weight: bold;
+}
+.middle{
+    background-color: darkblue;
+    width:100%;
+    height:35px;
+    color:white;
+    position: relative;
+}
+.about{
+    margin-left: 200px;
+    position: absolute;
+    line-height: 30px;
+    text-align: center;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    display:block;
+    z-index: 1;
+}
+.about:hover{
+    background-color: darkred;
+    cursor:pointer;
+    display: block;
+}
+.auth{
+    margin-left: 330px;
+    position: absolute;
+    line-height: 30px;
+    text-align: center;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    display:block;
+    z-index: 1;
+}
+.auth:hover{
+    background-color: darkred;
+    cursor:pointer;
+    display: block;
+}
+.admin{
+    margin-left: 460px;
+    position: absolute;
+    line-height: 30px;
+    text-align: center;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    display:block;
+    z-index: 1;
+}
+.admin:hover{
+    background-color: darkred;
+    cursor:pointer;
+    display: block;
+}
+.depart{
+    margin-left: 590px;
+    position: absolute;
+    line-height: 30px;
+    text-align: center;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    display:block;
+    z-index: 1;
+}
+.depart:hover{
+    background-color: darkred;
+    cursor:pointer;
+    display: block;
+}
+.academic{
+    margin-left: 720px;
+    position: absolute;
+    line-height: 30px;
+    text-align: center;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    display:block;
+    z-index: 1;
+}
+.academic:hover{
+    background-color: darkred;
+    cursor:pointer;
+    display: block;
+}
+.student{
+        margin-left: 850px;
+        position: absolute;
+        line-height: 30px;
+        text-align: center;
+        align-items: center;
+        width: 120px;
+        height: 35px;
+        display:block;
+        z-index: 1;
+}
+.student:hover{
+    background-color: darkred;
+    cursor:pointer;
+    display: block;
+}
+.faculty{
+    margin-left: 980px;
+    position: absolute;
+    line-height: 30px;
+    text-align: center;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    display:block;
+    z-index: 1;
+}
+.faculty:hover{
+    background-color: darkred;
+    cursor:pointer;
+    display: block;
+}
+.alumni{
+    margin-left: 1110px;
+    position: absolute;
+    line-height: 30px;
+    text-align: center;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    display:block;
+    z-index: 1;
+}
+.alumni:hover{
+    background-color: darkred;
+    cursor:pointer;
+    display: block;
+}
+.downloads{
+    margin-left: 1240px;
+    position: absolute;
+    line-height: 30px;
+    text-align: center;
+    align-items: center;
+    width: 120px;
+    height: 35px;
+    display:block;
+    z-index: 1;
+}
+.downloads:hover{
+    background-color: darkred;
+    cursor:pointer;
+    display: block;
+}
+.hanging{
+    background-color: sandybrown;
+    width: 1100px;
+    align-items: centers;
+    height:35px;
+    margin: auto;
+    margin-top: 300px;
+}
+.middlebottom{
+    height: 100px;
+    width: 1100px;
+    margin: auto;
+    margin-top: 10px;
+}
+.research{
+    background-color: darkred;
+    color: white;
+    display: block;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    line-height: 24px;
+}
+.research:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+.planning{
+    background-color: darkred;
+    color: white;
+    display: block;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 300px;
+    line-height: 24px;
+}
+.planning:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+.facil{
+    background-color: darkred;
+    color: white;
+    display: block;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 600px;
+    line-height: 24px;
+}
+.facil:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+.section{
+    background-color: darkred;
+    color: white;
+    display: block;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 900px;
+    line-height: 24px;
+}
+.section:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+.training{
+    background-color: darkred;
+    color: white;
+    display: block;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 0px;
+    line-height: 24px;
+}
+.training:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+.advert{
+    background-color: darkred;
+    color: white;
+    display: block;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 300px;
+    line-height: 24px;
+}
+.advert:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+.work{
+    background-color: darkred;
+    color: white;
+    display: block;
+    width: 250px;
+    height: 30px;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 600px;
+    line-height: 24px;
+}
+.work:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+.tender{
+    background-color: darkred;
+    color: white;
+    display: block;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    margin-top: -30px;
+    margin-left: 900px;
+    line-height: 24px;
+}
+.tender:hover{
+    background-color: darkblue;
+    cursor: pointer;
+}
+.announce{
+    background-color: darkblue;
+    color: white;
+    width: 551px;
+    height: 30px;
+    margin-left: 210px;
+    text-align: center;
+    line-height: 24px;
+}
+.admission{
+    background-color: darkblue;
+    color: white;
+    width: 502px;
+    height: 30px;
+    margin-left: 809px;
+    text-align: center;
+    line-height: 24px;
+    margin-top: -30px;
+}
+.adverti{
+    background-color: darkblue;
+    color: white;
+    width: 558px;
+    height: 30px;
+    margin-left: 205px;
+    text-align: center;
+    line-height: 24px;
+    margin-top: 300px;
+}
+.event{
+    background-color: darkblue;
+    color: white;
+    width: 510px;
+    height: 30px;
+    margin-left: 809px;
+    text-align: center;
+    line-height: 24px;
+    margin-top: -33px;
+}
+.gallery{
+    background-color:darkblue;
+    width: 1100px;
+    align-items: centers;
+    height:35px;
+    margin: auto;
+    margin-top: 300px;
+    line-height: 30px;
+    color: white;
+    text-align: center;
+}
+.bottom{
+    background-color: darkblue;
+    margin-top: 250px;
+    height: 350px;
+}
+.head1{
+    color: sandybrown;
+    margin-left: 350px;
+    position: absolute;
+    margin-top: 50px;
+}
+.head2{
+    color: sandybrown;
+    margin-left: 700px;
+    position: absolute;
+    margin-top: 50px;
+}
+.head3{
+    color: sandybrown;
+    margin-left: 1050px;
+    position: absolute;
+    margin-top: 50px;
+}
+.below1{
+    color: white;
+    margin-left: 350px;
+    position: absolute;
+    margin-top: 50px;
+}
+.below2{
+    color: white;
+    margin-left: 700px;
+    position: absolute;
+    margin-top: 50px;
+}
+.below3{
+    color: white;
+    margin-left: 1050px;
+    position: absolute;
+    margin-top: 50px;
+}
+.logos{
+    width: 100%;
+    height:100px;
+}
+.final{
+    width: 100%;
+    height: 50px;
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+.fb{
+    margin-left: 1100px;
+    position: absolute;
+    margin-top: 65px;
+}
+.twitter{
+    margin-left: 1130px;
+    position: absolute;
+    margin-top: 65px;
+}
+.linkedin{
+    margin-left: 1160px;
+    position: absolute;
+    margin-top: 65px;
+}
+.instagram{
+    margin-left: 1190px;
+    position: absolute;
+    margin-top: 65px;
+}
+.marq1{
+    line-height: 32px;
+    white-space: nowrap;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+}
+.m1{
+    padding: 100px;
+}
+.m3{
+    padding: 100px;
+}
+.img1{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    position: absolute;
+    animation: blinker 1s linear infinite;
+}
+@keyframes blinker {
+    25%{opacity: 0;}
+    50% { opacity: 1; }
+    75%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.js1{
+    width: 546px;
+    height: 280px;
+    margin-top: 6px;
+    margin-left: 0px;
+    position: absolute;
+    border: 2px solid black;
+    max-width: 546px;
+    max-height: 280px;
+    overflow-y: scroll;
+}
+.js11{
+    color:darkblue;
+    position: relative;
+    top: 30px;
+}
+.js11:hover{
+    cursor: pointer;
+}
+.js12{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js12:hover{
+    cursor: pointer;
+}
+.js13{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js13:hover{
+    cursor: pointer;
+}
+.js14{
+    color:darkblue;
+    position: relative;
+    top:-15px
+}
+.js14:hover{
+    cursor: pointer;
+}
+.js15{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js15:hover{
+    cursor: pointer;
+}
+.js15:hover{
+    cursor: pointer;
+}
+.js16{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js16:hover{
+    cursor: pointer;
+}
+.js17{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js17:hover{
+    cursor: pointer;
+}
+.js18{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js18:hover{
+    cursor: pointer;
+}
+.js19{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js19:hover{
+    cursor: pointer;
+}
+.js191{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js191:hover{
+    cursor: pointer;
+}
+.js192{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js192:hover{
+    cursor: pointer;
+}
+.button1{
+    width: 100px;
+    height: 30px;
+    margin-left: 223px;
+    background-color: darkred;
+    margin-bottom: 5px;
+    color: white;
+    display: block;
+    text-align: center;
+}
+.button1:hover{
+    cursor: pointer;
+}
+.js2{
+    width: 498px;
+    height: 280px;
+    margin-top: 3px;
+    margin-left: 0px;
+    position: absolute;
+    border: 2px solid black;
+    overflow-y: scroll;
+}
+.js21{
+    color:darkblue;
+    position: relative;
+    top: 30px;
+}
+.js21:hover{
+    cursor: pointer;
+}
+.js22{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js22:hover{
+    cursor: pointer;
+}
+.js23{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js23:hover{
+    cursor: pointer;
+}
+.js24{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js24:hover{
+    cursor: pointer;
+}
+.js25{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js25{
+    cursor: pointer;
+}
+.js26{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js26{
+    cursor: pointer;
+}
+.js3{
+    width: 554px;
+    height: 280px;
+    margin-top: 4px;
+    margin-left: 0px;
+    position: absolute;
+    border: 2px solid black;
+    overflow-y: scroll;
+}
+.js31{
+    color:darkblue;
+    position: relative;
+    top: 30px;
+}
+.js31:hover{
+    cursor: pointer;
+}
+.js32{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js32:hover{
+    cursor: pointer;
+}
+.js33{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js33:hover{
+    cursor: pointer;
+}
+.js34{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js34:hover{
+    cursor: pointer;
+}
+.js35{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js35:hover{
+    cursor: pointer;
+}
+.js36{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js36:hover{
+    cursor: pointer;
+}
+.js37{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js37:hover{
+    cursor: pointer;
+}
+.js38{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js38:hover{
+    cursor: pointer;
+}
+.js39{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js39:hover{
+    cursor: pointer;
+}
+.js391{
+    color:darkblue;
+    position: relative;
+    top: -15px;
+}
+.js391:hover{
+    cursor: pointer;
+}
+.js4{
+    width: 506px;
+    height: 278px;
+    margin-top: 4px;
+    margin-left: 0px;
+    position: absolute;
+    border: 2px solid black;
+}
+.box1{
+    color: white;
+    background-color: darkred;
+    height: 50px;
+    display: block;
+    width: 80px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+.box1:hover{
+    cursor: pointer;
+}
+.box2{
+    margin-top: 10px;
+    color: white;
+    background-color: darkred;
+    height: 50px;
+    display: block;
+    width: 80px;
+    text-align: center;
+}
+.box2:hover{
+    cursor: pointer;
+}
+.box3{
+    margin-top: 10px;
+    color: white;
+    background-color: darkred;
+    height: 50px;
+    display: block;
+    width: 80px;
+    text-align: center;
+}
+.box3:hover{
+    cursor: pointer;
+}
+.marq2{
+    width: 506px;
+    height: 277px;
+    margin-top: 4px;
+    margin-left: 0px;
+}
+.bo1{
+    color: darkblue;
+    margin-left: 100px;
+    text-align: center;
+    margin-top: 0px;
+}
+.bo1:hover{
+    cursor: pointer;
+}
+.bo2{
+    color: darkblue;
+    margin-left: 100px;
+    text-align: center;
+}
+.bo2:hover{
+    cursor: pointer;
+}
+.bo3{
+    color: darkblue;
+    margin-left: 100px;
+    text-align: center;
+}
+.bo3:hover{
+    cursor: pointer;
+}
+.view5{
+    width: 100px;
+    height: 35px;
+    background-color: darkred;
+    color: white;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 700px;
+    line-height: 35px;
+    align-content: 5px;
+    padding-left: 15px;
+    padding-right: 30px;
+    text-align: center;
+    font-size: smaller;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 3px;
+}
+.hidden1{
+    background-color: darkblue;
+    color: white;
+    width: 1164px;
+    height: 250px;
+    position: absolute;
+    margin-top: -1890px;
+    margin-left: 200px;
+    display: none;
+}
+.histbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 300px;
+    height: 30px;
+    top: 10px;
+}
+.histbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.hist{
+    margin-left: 40px;
+    line-height: 25px;
+}
+.visionbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 300px;
+    height: 30px;
+    top: 20px;
+}
+.visionbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.vision{
+    margin-left: 40px;
+    line-height: 25px;
+}
+.goalbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 300px;
+    height: 30px;
+    top: 30px;
+}
+.goalbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.goal{
+    margin-left: 40px;
+    line-height: 25px;
+}
+.corebox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 300px;
+    height: 30px;
+    top: 40px;
+}
+.corebox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.core{
+    margin-left: 40px;
+    line-height: 25px;
+}
+.citybox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 300px;
+    height: 30px;
+    top: 50px;
+}
+.citybox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.city{
+    margin-left: 40px;
+    line-height: 25px;
+}
+.connectbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 300px;
+    height: 30px;
+    top: 60px;
+}
+.connectbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.connect{
+    margin-left: 40px;
+    line-height: 25px;
+}
+.hidden2{
+    background-color: darkblue;
+    color: white;
+    width: 1164px;
+    height: 250px;
+    position: absolute;
+    margin-top: -1890px;
+    margin-left: 200px;
+    display: none;
+}
+.bogbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.bogbox:hover{
+    background-color: darkred;
+}
+.bog{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.compbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 20px;
+}
+.compbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.comp{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.minutebox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 30px;
+}
+.minutebox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.minute{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.fcbox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -79px;
+    color: sandybrown;
+}
+.fcbox:hover{
+    background-color: darkred;
+}
+.fc{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.comp1box{
+    position: relative;
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 8px;
+}
+.comp1box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.comp1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.minute1box{
+    position: relative;
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 18px;   
+}
+.minute1box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.minute1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.bwcbox{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -90px;
+    color: sandybrown;
+}
+.bwcbox:hover{
+    background-color:darkred;
+}
+.bwc{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.comp2box{
+    position: relative;
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 8px;
+}
+.comp2box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.comp2{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.minute2box{
+    position: relative;
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 18px;   
+}
+.minute2box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.minute2{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.senatebox{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -90px;
+    color: sandybrown
+}
+.senatebox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.senate{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.comp3box{
+    position: relative;
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 8px;
+}
+.comp3box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.comp3{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.minute3box{
+    position: relative;
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 18px;   
+}
+.minute3box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.minute3{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.hidden3{
+    background-color: darkblue;
+    color: white;
+    width: 1164px;
+    height: 250px;
+    position: absolute;
+    margin-top: -1890px;
+    margin-left: 200px;
+    display: none;
+}
+.visitorbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.visitorbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.visitor{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.chiefbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 150px;
+    color: sandybrown;
+}
+.chiefbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.chief{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.chairbox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -50px;
+    color: sandybrown;
+}
+.chairbox:hover{
+    background-color: darkred;
+}
+.chair{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.messbox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+}
+.messbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.mess{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.formebox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+}
+.formebox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.forme{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.deanbox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    color: sandybrown;
+}
+.deanbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.dean{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.coordbox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 9px;
+    color: sandybrown;
+}
+.coordbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.coord{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.directorbox{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -200px;
+    color: sandybrown;
+}
+.directorbox:hover{
+    background-color: darkred;
+}
+.director{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.dirbox{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+}
+.dirbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.dir{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.forme1box{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+}
+.forme1box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.forme1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.offbox{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+}
+.offbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.off{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.headbox{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    color: sandybrown;
+}
+.headbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.head{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.regibox{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -200px;
+    color: sandybrown;
+}
+.regibox:hover{
+    background-color: darkred;
+}
+.regi{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.regi1box{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+}
+.regi1box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.regi1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.strbox{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+}
+.strbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.str{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.off1box{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 10px;
+}
+.off1box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.off1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.nodebox{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    color: sandybrown;
+}
+.nodebox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.node{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.hidden4{
+    background-color: darkblue;
+    color: white;
+    width: 1164px;
+    height: 303px;
+    position: absolute;
+    margin-top: -1890px;
+    margin-left: 200px;
+    display: none;
+}
+.engbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.engbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.eng{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.csebox{
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 8px;
+}
+.csebox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.cse{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.civilbox{
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 8px;
+}
+.civilbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.civil{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.chembox{
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 8px;
+}
+.chembox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.chem{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.ecebox{
+    margin-left: 20px;
+    display: block;
+    width: 320px;
+    height: 30px;
+    margin-top: 8px;
+}
+.ecebox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.ece{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.elecbox{
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 8px;
+}
+.elecbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.elec{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.mechbox{
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 8px;
+}
+.mechbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.mech{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.materbox{
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 8px;
+}
+.materbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.mater{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.sciencebox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -284px;
+    color: sandybrown;
+}
+.sciencebox:hover{
+    background-color: darkred;
+}
+.science{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.chemibox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -4px;
+}
+.chemibox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.chemi{
+    margin-left: 10px;
+    line-height: 25px
+}
+.mathbox{
+    margin-left: 300px;
+    display: block;
+    width: 320px;
+    height: 30px;
+    margin-top: 8px;
+}
+.mathbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.math{
+    margin-left: 10px;
+    line-height: 25px
+}
+.physbox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 8px;
+}
+.physbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.phys{
+    margin-left: 10px;
+    line-height: 25px
+}
+.centerbox{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -132px;
+    color: sandybrown;
+}
+.centerbox:hover{
+    background-color: darkred;
+}
+.center{
+    margin-left: 10px;
+    line-height: 25px
+}
+.energybox{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -4px;
+}
+.energybox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.energy{
+    margin-left: 10px;
+    line-height: 25px
+}
+.otherbox{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -58px;
+    color: sandybrown;
+}
+.otherbox:hover{
+    background-color: darkred;
+}
+.other{
+    margin-left: 10px;
+    line-height: 25px
+}
+.archbox{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -4px;
+}
+.archbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.arch{
+    margin-left: 10px;
+    line-height: 25px
+}
+.humanbox{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -4px;
+}
+.humanbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.human{
+    margin-left: 10px;
+    line-height: 25px
+}
+.managebox{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -4px;
+}
+.managebox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.manage{
+    margin-left: 10px;
+    line-height: 25px
+}
+.hidden5{
+    background-color: darkblue;
+    color: white;
+    width: 1164px;
+    height: 303px;
+    position: absolute;
+    margin-top: -1890px;
+    margin-left: 200px;
+    display: none;
+}
+.actibox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.actibox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.acti{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.functbox{
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 16px;
+    color: sandybrown;
+}
+.functbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.funct{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.calebox{
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 7px;
+    color: sandybrown;
+}
+.calebox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.cale{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.oddbox{
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+}
+.oddbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.odd{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.evenbox{
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+}
+.evenbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.even{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.notibox{
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 12px;
+    color: sandybrown;
+}
+.notibox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.noti{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.nadbox{
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 12px;
+    color: sandybrown;
+}
+.nadbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.nad{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.admbox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -250px;
+    color: sandybrown;
+}
+.admbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.adm{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.s20box{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -3px;
+}
+.s20box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.s20{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.deskbox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -3px;
+}
+.deskbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.desk{
+    margin-left: 10px;
+    line-height: 25px;
+}
+
+.s21box{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -3px;
+}
+.s21box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.s21{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.timebox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -3px;
+}
+.timebox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.time{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.exambox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 8px;
+    color: sandybrown;
+}
+.exambox:hover{
+    background-color: darkred;
+}
+.exam{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.schbox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -3px;
+}
+.schbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.sch{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.guibox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -3px;
+
+}
+.guibox:hover{
+    background-color: darkred;
+}
+.gui{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.sch1box{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -3px;
+}
+.sch1box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.sch1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.gui1box{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -3px;
+}
+.gui1box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.gui1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.prog1box{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -283px;
+    color: sandybrown;
+}
+.prog1box:hover{
+    background-color: darkred;
+}
+.prog1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.ordibox{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -4px
+}
+.ordibox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.ordi{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.courbox{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -4px
+}
+.courbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.cour{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.oldbox{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -4px
+}
+.oldbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.old{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.prog2box{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 2px;
+    color: sandybrown;
+}
+.prog2box:hover{
+    background-color: darkred;
+}
+.prog2{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.ord1box{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -4px;
+}
+.ord1box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.ord1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.cour1box{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -4px;
+}
+.cour1box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.cour1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.old1box{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -4px;
+}
+.old1box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.old1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.prog3box{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -215px;
+    color: sandybrown;
+}
+.prog3box:hover{
+    background-color: darkred;
+}
+.prog3{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.ord2box{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -2px;
+}
+.ord2box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.ord2{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.old2box{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -2px;
+}
+.old2box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.old2{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.libox{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -2px;
+}
+.libox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.li{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.passbox{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -2px;
+}
+.passbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.pass{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.resubox{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 2px;
+    color: sandybrown;
+}
+.resubox:hover{
+    background-color: darkred;
+}
+.resu{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.resbox{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+}
+.resbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.res{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.certibox{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+}
+.certibox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.certi{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.veribox{
+    margin-left: 860px;
+    display: block;
+    width: 305px;
+    height: 28px;
+    margin-top: 0px;
+}
+.veribox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.veri{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.perbox{
+    margin-left: 860px;
+    display: block;
+    width: 305px;
+    height: 28px;
+    margin-top: 0px;
+}
+.perbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.per{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.hidden6{
+    background-color: darkblue;
+    color: white;
+    width: 1164px;
+    height: 337px;
+    position: absolute;
+    margin-top: -1890px;
+    margin-left: 200px;
+    display: none;
+}
+.acbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.acbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.ac{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.funbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.funbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.fun{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.relbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.relbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.rel{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.spobox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.spobox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.spo{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.nssbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.nssbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.nss{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.nccbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.nccbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.ncc{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.hostelbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 25px;
+    top: 20px;
+    color: sandybrown;
+}
+.hostelbox:hover{
+    background-color: darkred;
+}
+.hostel{
+    margin-left: 10px;
+    line-height: 20px;
+}
+.atbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 20px;
+}
+.atbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.at{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.manbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 20px;
+}
+.manbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.man{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.bookbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 20px;
+}
+.bookbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.book{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.clubbox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -285px;
+    color: sandybrown;
+}
+.clubbox:hover{
+    background-color: darkred;
+}
+.club{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.introbox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 2px;
+}
+.introbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.intro{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.club1box{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 2px;
+}
+.club1box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.club1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.annbox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 2px;
+}
+.annbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.ann{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.macaybox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 2px;
+}
+.macaybox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.macay{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.techbox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 2px;
+    color: sandybrown;
+}
+.techbox:hover{
+    background-color: darkred;
+}
+.tech{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.intro1box{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 2px;
+}
+.intro1box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.intro1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.ann1box{
+    margin-left: 300px;
+    display: block;
+    width: 270px;
+    height: 30px;
+    margin-top: 2px;
+}
+.ann1box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.ann1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.innbox{
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 2px;
+}
+.innbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.inn{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.sporbox{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -287px;
+    color: sandybrown;
+}
+.sporbox:hover{
+    background-color: darkred;
+}
+.spor{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.intro2box{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -4px;
+}
+.intro2box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.intro2{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.ann2box{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -4px;
+}
+.ann2box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.ann2{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.ann3box{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -4px;
+}
+.ann3box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.ann3{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.pubbox{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+    color: sandybrown;
+}
+.pubbox:hover{
+    background-color: darkred;
+}
+.pub{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.magbox{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -4px;
+}
+.magbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.mag{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.newsbox{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -4px;
+}
+.newsbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.news{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.letterbox{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top:-4px;
+}
+.letterbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.letter{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.welbox{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+    color: sandybrown;
+}
+.welbox:hover{
+    background-color: darkred;
+}
+.wel{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.fellowbox{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -4px;
+}
+.fellowbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.fellow{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.prizebox{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -4px;
+}
+.prizebox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.prize{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.insurancebox{
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -4px;
+}
+.insurancebox:hover{
+    background-color: darkred;
+    cursor: pointers;
+}
+.insurance{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.discbox{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -327px;
+    color: sandybrown;
+}
+.discbox:hover{
+    background-color: darkred;
+}
+.disc{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.rubox{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+}
+.rubox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.ru{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.boardbox{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+}
+.boardbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.board{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.counbox{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+}
+.counbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.coun{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.board1box{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+}
+.board1box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.board1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.ru1box{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+}
+.ru1box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.ru1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.board2box{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+}
+.board2box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.board2{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.antibox{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+}
+.antibox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.anti{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.anti1box{
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+}
+.anti1box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.anti1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.hidden7{
+    background-color: darkblue;
+    color: white;
+    width: 1164px;
+    height: 250px;
+    position: absolute;
+    margin-top: -1890px;
+    margin-left: 200px;
+    display: none;
+}
+.ac1box{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.ac1box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.ac1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.fun1box{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.fun1box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.fun1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.cpdabox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.cpdabox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.cpda{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.depubox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.depubox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.depu{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.forwardbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.forwardbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.forward{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.conductbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 320px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.conductbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.conduct{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.rebox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.rebox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.re{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.hidden8{
+    background-color: darkblue;
+    color: white;
+    width: 1164px;
+    height: 250px;
+    position: absolute;
+    margin-top: -1890px;
+    margin-left: 200px;
+    display: none;
+}
+.activbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.activbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.activ{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.fubox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.fubox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.fu{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.alumbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+    color: sandybrown;
+}
+.alumbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.alum{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.affairbox{
+    position: relative;
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -80px;
+    color: sandybrown;
+}
+.affairbox:hover{
+    background-color: darkred;
+}
+.affair{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.list10box{
+    position: relative;
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 0px;
+}
+.list10box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.list10{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.regbox{
+    position: relative;
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 0px;
+}
+.regbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.reg{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.localbox{
+    position: relative;
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 0px;
+}
+.localbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.local{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.meet1box{
+    position: relative;
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 0px;
+}
+.meet1box:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.meet1{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.disbox{
+    position: relative;
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 0px;
+}
+.disbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.dis{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.highbox{
+    position: relative;
+    margin-left: 300px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 0px;
+}
+.highbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.high{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.resourcebox{
+    position: relative;
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -210px;
+    color: sandybrown;
+}
+.resourcebox:hover{
+    background-color: darkred;
+}
+.resource{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.endbox{
+    position: relative;
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+}
+.endbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.end{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.infrabox{
+    position: relative;
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+}
+.infrabox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.infra{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.awabox{
+    position: relative;
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+}
+.awabox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.awa{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.resebox{
+    position: relative;
+    margin-left: 580px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+}
+.resebox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.rese{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.portalbox{
+    position: relative;
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: -150px;
+    color: sandybrown;
+}
+.portalbox:hover{
+    background-color: darkred;
+}
+.portal{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.netwbox{
+    position: relative;
+    margin-left: 860px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    margin-top: 0px;
+}
+.netwbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.netw{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.hidden9{
+    background-color: darkblue;
+    color: white;
+    width: 1164px;
+    height: 250px;
+    position: absolute;
+    margin-top: -1890px;
+    margin-left: 200px;
+    display: none;
+}
+.stdownbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+}
+.stdownbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.stdown{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.fadownbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+}
+.fadownbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.fadown{
+    margin-left: 10px;
+    line-height: 25px;
+}
+.misdownbox{
+    position: relative;
+    margin-left: 20px;
+    display: block;
+    width: 250px;
+    height: 30px;
+    top: 10px;
+}
+.misdownbox:hover{
+    background-color: darkred;
+    cursor: pointer;
+}
+.misdown{
+    margin-left: 10px;
+    line-height: 25px;
+}
